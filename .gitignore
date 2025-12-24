@@ -1,0 +1,72 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.pyc
+
+# Python package dependencies
+pip-delete-this-directory.txt
+pip-wheel-metadata/
+*.dist-info/
+*.egg-info/
+
+# Jupyter/IPython
+.ipynb_checkpoints
+*.ipynb
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache and temp files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model files (jika tidak ingin commit model besar)
+*.h5
+*.pth
+*.pkl
+*.joblib
+*.bin
+
+# Data files (jika tidak ingin commit data besar)
+*.csv
+*.json
+*.parquet
+data/
+
+# Build and distribution
+build/
+dist/
+*.egg
+
+# Misc
+*.swp
+*.swo
